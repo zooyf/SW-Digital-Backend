@@ -18,6 +18,8 @@
 
 ## 2、题目
 
+一道必做题，两道选做题
+
 ### 2.1 接口
 
 1. 请为前端同学设计如下页面所需接口
@@ -30,7 +32,11 @@
 
 ![](https://sw-interview.oss-cn-beijing.aliyuncs.com/image/backend_api_interview.png)
 
-### 2.2 SQL
+### 2.2 算法
+
+有一组长度为n的对象，每个对象里都有一个startTime和endTime，表示一个时间段。请面试者设计一个小算法，把这些对象中时间段存在重合关系的所有对象列出来。
+
+### 2.3 SQL（选做）
 
 Orders 表中存所有用户的订单信息。每个订单有唯一键 Id，Customer_Id 和 Business_Id 是 Users 表中 Users_Id 的外键。Status 是枚举类型，枚举成员为 (‘completed’, ‘cancelled_by_b’, ‘cancelled_by_c’)。
 
